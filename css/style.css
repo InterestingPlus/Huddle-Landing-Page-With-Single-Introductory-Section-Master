@@ -114,7 +114,7 @@ main .footer .social-links .social {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 750px) {
   main {
     width: 750px;
     width: 100vw;
