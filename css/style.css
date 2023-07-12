@@ -44,6 +44,8 @@ main .header img {
   pointer-events: none;
 }
 main section {
+  position: relative;
+  z-index: 9;
   display: flex;
 }
 main section .hero-img {
@@ -176,7 +178,4 @@ main .footer .social-links .social {
     border-width: 1px;
     width: 35px;
   }
-}
-#img {
-  width: 100vw;
 }/*# sourceMappingURL=style.css.map */

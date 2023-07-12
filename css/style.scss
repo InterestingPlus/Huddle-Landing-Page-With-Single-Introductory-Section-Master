@@ -56,6 +56,8 @@ main {
   }
 
   section {
+    position: relative;
+    z-index: 9;
     display: flex;
 
     .hero-img {
@@ -138,7 +140,7 @@ main {
   }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 750px) {
   main {
     width: 750px;
     width: 100vw;
@@ -210,8 +212,4 @@ main {
       }
     }
   }
-}
-
-#img {
-  width: 100vw;
 }
