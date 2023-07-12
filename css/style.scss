@@ -138,12 +138,12 @@ main {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1500px) {
   main {
     width: 750px;
     width: 100vw;
     height: auto;
-    padding: 65px 75px;
+    padding: 35px 35px;
 
     display: flex;
     flex-direction: column;
@@ -166,30 +166,30 @@ main {
 
       .hero-img {
         margin: 0;
-        margin-top: 110px;
+        margin-top: 60px;
       }
 
       .main-content {
         margin: 0;
-        margin-top: 20%;
+        margin-top: 50px;
         text-align: center;
 
         h1 {
           text-align: center;
-          font-size: 3rem;
+          font-size: 27px;
         }
         p {
           padding: 0;
-          margin-top: 30px;
-          font-size: 2.1rem;
-          line-height: 3rem;
+          margin-top: 18px;
+          font-size: 20px;
+          line-height: 25px;
         }
         button {
-          margin-top: 48px;
-          margin-bottom: 180px;
+          margin-top: 30px;
+          margin-bottom: 70px;
           width: 65%;
-          padding: 25px;
-          font-size: 1.5rem;
+          padding: 13px;
+          font-size: 15px;
         }
       }
     }
@@ -204,9 +204,14 @@ main {
         gap: 20px;
 
         .social {
-          width: 55px;
+          border-width: 1px;
+          width: 35px;
         }
       }
     }
   }
+}
+
+#img {
+  width: 100vw;
 }
