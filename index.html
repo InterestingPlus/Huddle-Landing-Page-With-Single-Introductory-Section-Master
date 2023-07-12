@@ -62,9 +62,10 @@
       <img id="desktop-img" src="images/bg-desktop.svg" alt="" />
       <img id="mobile-img" src="images/bg-mobile.svg" alt="" />
     </main>
-    <!-- </div>
+    <!-- </div> -->
 
-      <img id="img" src="design/mobile-design.jpg" />
+    <!-- <img id="img" src="design/mobile-design.jpg" /> -->
+    <!-- <img id="img" src="design/mobile-design.jpg" />
     </div> -->
 
     <!-- <footer>
@@ -114,6 +115,13 @@
         // if()
         output.style.width = x + "px";
         console.log(x);
+      }
+    </script>
+
+    <script>
+      if (window.innerHeight > window.innerWidth) {
+        document.querySelector("section").style.flexDirection = "column";
+        document.querySelector("section").style.textAlign = "center";
       }
     </script>
   </body>
