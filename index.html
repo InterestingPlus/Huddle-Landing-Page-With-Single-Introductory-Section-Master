@@ -22,8 +22,7 @@
       crossorigin="anonymous"></script>
   </head>
   <body>
-    <!-- <div id="canvas">
-      <div id="output"> -->
+
     <main>
       <div class="header">
         <img src="images/logo.svg" alt="Logo" />
@@ -62,64 +61,9 @@
       <img id="desktop-img" src="images/bg-desktop.svg" alt="" />
       <img id="mobile-img" src="images/bg-mobile.svg" alt="" />
     </main>
-    <!-- </div> -->
-
-    <!-- <img id="img" src="design/mobile-design.jpg" /> -->
-    <!-- <img id="img" src="design/mobile-design.jpg" />
-    </div> -->
-
-    <!-- <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
-    </footer> -->
-
-    <style>
-      #canvas {
-        position: relative;
-        cursor: col-resize;
-        width: 500px;
-      }
-
-      #output {
-        overflow: hidden;
-        width: 1500px;
-        min-height: 1000px;
-        position: relative;
-        z-index: 1;
-        mix-blend-mode: normal;
-        pointer-events: none;
-        box-shadow: red 2px 0px 0px;
-      }
-      #img {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-      }
-    </style>
 
     <script>
-      const canvas = document.getElementById("canvas");
-      const output = document.getElementById("output");
-
-      canvas.addEventListener("mousemove", pointGet);
-      canvas.addEventListener("touchstart", pointGet);
-
-      function pointGet(event) {
-        let x = event.offsetX;
-        // let y = event.offsetY;
-
-        // if()
-        output.style.width = x + "px";
-        console.log(x);
-      }
-    </script>
-
-    <script>
-      if (window.innerHeight > window.innerWidth) {
+      if (pageYOffset > pageXOffset) {
         document.querySelector("section").style.flexDirection = "column";
         document.querySelector("section").style.textAlign = "center";
       }
