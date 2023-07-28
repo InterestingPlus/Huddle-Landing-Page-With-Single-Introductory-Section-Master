@@ -9,19 +9,12 @@ $Paragraph: hsl(258, 75%, 92%);
   padding: 0;
   box-sizing: border-box;
   color: #fff;
-
-  // font-family: "Open Sans", sans-serif;
-  // FW 400 600
-  // font-family: "Poppins", sans-serif;
-  // FW 400
 }
 body {
   background: black;
   overflow-x: hidden;
 }
 main {
-  // width: 1440px;
-  // min-height: 800px;
   width: 100vw;
   min-height: 100dvh;
   position: relative;
@@ -63,7 +56,6 @@ main {
     .hero-img {
       position: relative;
       z-index: 9;
-      // margin: 83px 0 0 2px;
       margin: 6.3% 0 0 2px;
       min-width: 55%;
 
@@ -97,6 +89,7 @@ main {
         color: $SoftViolet;
         background: #fff;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: 0.5s all;
 
         font-size: 1.2rem;
         font-weight: 600;
@@ -104,6 +97,11 @@ main {
 
         border-radius: 50px;
         border: none;
+
+        &:hover {
+          color: #fff;
+          background: $SoftViolet;
+        }
       }
     }
   }
