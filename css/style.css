@@ -83,11 +83,16 @@ main section .main-content button {
   color: hsl(257, 44%, 65%);
   background: #fff;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.5s all;
   font-size: 1.2rem;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   border-radius: 50px;
   border: none;
+}
+main section .main-content button:hover {
+  color: #fff;
+  background: hsl(257, 44%, 65%);
 }
 main .footer {
   position: absolute;
